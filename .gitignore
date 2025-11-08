@@ -1,0 +1,59 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime / environment files
+.env
+.env.*
+.env.local
+
+# Build output
+dist/
+build/
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editors
+.vscode/
+.idea/
+
+# Debug / test output
+.nyc_output/
+coverage/
+
+# Misc
+*.tgz
+*.bak
+*.tmp
+*.swp
+
+# Optional lock files (uncomment if you want to ignore lockfiles)
+# package-lock.json
+# yarn.lock
+
+# SQLite db
+*.sqlite
+*.sqlite3
+
+# Uploaded files / temp
+uploads/
+tmp/
+
+# Mac/Windows file metadata
+*.DS_Store
+
+# Optional: local dotenv files used by some tools
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
