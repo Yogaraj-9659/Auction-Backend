@@ -15,7 +15,7 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors({ origin: process.env.CLIENT_URL?.split(',') || "*", credentials: true }));
+app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
 
